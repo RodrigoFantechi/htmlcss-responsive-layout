@@ -128,7 +128,7 @@ header .right_menu {
     width: 135px;
 }
 
-.icon {
+.demo .icon {
     font-size: 5rem;
     color: var(--clr-secondary);
     padding-top: 1rem;
@@ -180,7 +180,7 @@ header .right_menu {
 .cicle_purple {
     background-color: var(--primary);
     border-radius: 100px;
-    padding: 1rem 1.4rem;
+    padding: 1rem 1.7rem;
     display: inline-block;
     margin: 1rem 0;
 }
@@ -238,7 +238,7 @@ header .right_menu {
 .benefits_card{
 background-color: var(--clr-light);
 border-radius: 1rem;
-padding: 1rem 1rem;
+padding: 2rem 2rem;
 
 }
 .benefits h4 {
@@ -248,9 +248,9 @@ padding: 1rem 1rem;
 }
 .number{
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--primary); 
-    margin: 1.5rem;
+    margin: 1.5rem 0;
     font-weight: bold;
 }
 .btn_purple{
@@ -262,10 +262,56 @@ padding: 1rem 1rem;
 }
 
 /* ABOUT_US */
+
+.about_us h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: var(--primary);
+} 
+.about_us img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about_us .avatar {
+    width: 60%;
+    aspect-ratio: 1/1;
+  
+    position: relative;
+    padding: 1rem;
+
+}
+.about_us .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 5rem;
+    color: var(--primary);
+}
+
+.about_us h4 {
+    color: var(--primary);
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
 /* FREE */
 .free {
     background-color: var(--primary);
+    text-align: center;
+    color: var(--clr-light);
 }
+.accent{ 
+    display: inline-block;
+    font-size: 4rem;
+    color: var(--clr-accent);
+    font-weight: bold;
+    margin: 2.5rem 0;
+}
+.free a{
+    
+}
+
 
 /* #endregion Main */
 
