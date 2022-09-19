@@ -308,8 +308,17 @@ padding: 2rem 2rem;
     font-weight: bold;
     margin: 2.5rem 0;
 }
-.free a{
-    
+.free .btn{
+    margin: 1.5rem 0;
+}
+.free .privacy{
+    color: var(--clr-light);
+    text-decoration: underline;
+}
+.btn_free{
+    color: var(--primary);
+    letter-spacing: 0.2rem;
+    padding: 0.4rem 2.5rem;
 }
 
 
@@ -318,8 +327,19 @@ padding: 2rem 2rem;
 /* #region Footer */
 footer {
     background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.footer_top{
+    margin-bottom: 3rem;
+    
 }
 
+.footer_bottom a{
+color: var(--primary);
+text-decoration: underline;
+}
 /* #endregion Footer */
 
 /* #region Flexbox Grid */
