@@ -15,16 +15,16 @@
     <title>htmlcss-responsive-layout</title>
 </head>
 
-<body>
+<body class="">
     <header class="site_header">
         <nav class="container">
             <div class="left_menu">
-                <a href="" class="logo">Logo</a>
+                <a href="" class="logo"><img src="assets/img/logo.png" alt="Logo"></a>
                 <!-- /.logo -->
             </div>
             <!-- /.left_menu -->
             <div class="right_menu">
-                <i class="fa-solid fa-bars"></i>
+                <i id="icon" class="fa-solid fa-bars"></i>
                 <!--/icon  -->
                 <ul class="links">
                     <li>Planning</li>
@@ -46,15 +46,62 @@
         <section class="demo">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8 col-lg-8"></div>
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <div class="card flex ">
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <h4>Get a Demo Application</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quos quia
+                                    repudiandae
+                                    porro molestiae excepturi laudantium, nihil expedita exercitationem, delectus,
+                                    impedit
+                                    minima ullam libero distinctio!</p>
+                                <a class="btn apple" href="#"> <i class="fa-brands fa-apple"></i>App Store</a>
+                            </div>
+                            <!-- /.col-12 col-md-12 col-lg-6 -->
+                            <div class="col-12 col-md-12 col-lg-6 tx_center no_p">
+                                <img src="assets/img/phone.png" alt="schermata telefono">
+                            </div>
+                            <!-- /.col-12 col-md-12 col-lg-6 -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
                     <!-- /.col-12 col-md-8 col-lg-8 -->
-                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4 tx_center">
+                        <div class="card">
+                            <div class="icon"><i class="fa-solid fa-file-code"></i></div>
+                            <h4>Clean Code</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati amet, nemo dolorum voluptatibus rem consectetur qui dolore numquam enim, reprehenderit dolor deserunt, libero harum.</p>
+                        </div>
+                        <!-- /.card -->
+                    </div>
                     <!-- /.col-12 col-md-4 col-lg-4 -->
-                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4 tx_center">
+                        <div class="card">
+                            <div class="icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                            <h4>Clean Code</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati amet, nemo dolorum voluptatibus rem consectetur qui dolore numquam enim, reprehenderit dolor deserunt, libero harum.</p>
+                        </div>
+                        <!-- /.card -->
+                    </div>
                     <!-- /.col-12 col-md-4 col-lg-4 -->
-                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4 tx_center">
+                        <div class="card">
+                            <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <h4>Web Design</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati amet, nemo dolorum voluptatibus rem consectetur qui dolore numquam enim, reprehenderit dolor deserunt, libero harum.</p>
+                        </div>
+                        <!-- /.card -->
+                    </div>
                     <!-- /.col-12 col-md-4 col-lg-4 -->
-                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4 tx_center">
+                        <div class="card">
+                            <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+                            
+                            <h4>Development</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati amet, nemo dolorum voluptatibus rem consectetur qui dolore numquam enim, reprehenderit dolor deserunt, libero harum.</p>
+                        </div>
+                        <!-- /.card -->
+                    </div>
                     <!-- /.col-12 col-md-4 col-lg-4 -->
                 </div>
                 <!-- /.row -->
@@ -65,9 +112,21 @@
         <section class="planning">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-6"></div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <img src="assets/img/planning1.png" alt="">
+                        <h2>Strategic Planning</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam amet exercitationem quis deserunt, debitis reprehenderit, molestias repudiandae ea commodi at dolorem quo ullam in dolor?
+                        </p>
+                    </div>
                     <!-- /.col-12 col-md-12 col-lg-6 -->
-                    <div class="col-12 col-md-12 col-lg-6"></div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="planning_card tx_center">
+                        <img src="assets/img/planning2.png" alt="">
+                        <h4>App Development</h4>
+                        <p>Develop an on-demand app for your delivery bussiness to reach your targeted customers without any intereption</p>
+                        <div class="cicle_purple"><i class="fa-solid fa-down-long"></i></div>
+                    </div>
+                    </div>
                     <!-- /.col-12 col-md-12 col-lg-6 -->
                 </div>
                 <!-- /.row -->
@@ -77,26 +136,42 @@
         <!-- /.planning -->
         <section class="partners">
             <div class="container">
-                <div class="headering"></div>
+                <div class="headering tx_center">
+                    <p>Testimonials</p>
+                    <h3>We are commited expert Partners</h3>
+                    <p>We place huge value on strong relationships and have seen the benefit they bring to our business.Customer feedback is vital in helping us to get it right</p>
+                </div>
                 <!-- /.headering -->
                 <div class="card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="assets/img/testimonial1.jpg" alt="photo profile">
+                    </div>
                     <!-- /.avatar -->
-                    <div class="bio"></div>
+                    <div class="bio">
+                        <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias esse quaerat earum commodi voluptas quos vitae mollitia molestiae. Modi quia hic doloremque repudiandae commodi. <i class="fa-solid fa-quote-right"></i></p>
+                    </div>
                     <!-- /.bio -->
                 </div>
                 <!-- /.card -->
                 <div class="card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="assets/img/testimonial1.jpg" alt="photo profile">
+                    </div>
                     <!-- /.avatar -->
-                    <div class="bio"></div>
+                    <div class="bio">
+                        <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias esse quaerat earum commodi voluptas quos vitae mollitia molestiae. Modi quia hic doloremque repudiandae commodi. <i class="fa-solid fa-quote-right"></i></p>
+                    </div>
                     <!-- /.bio -->
                 </div>
                 <!-- /.card -->
                 <div class="card">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                        <img src="assets/img/testimonial1.jpg" alt="photo profile">
+                    </div>
                     <!-- /.avatar -->
-                    <div class="bio"></div>
+                    <div class="bio">
+                        <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias esse quaerat earum commodi voluptas quos vitae mollitia molestiae. Modi quia hic doloremque repudiandae commodi. <i class="fa-solid fa-quote-right"></i></p>
+                    </div>
                     <!-- /.bio -->
                 </div>
                 <!-- /.card -->
@@ -127,7 +202,7 @@
             <!-- /.container -->
         </section>
         <!-- /.benefits -->
-       <section class="about_us">
+        <section class="about_us">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-8"></div>
