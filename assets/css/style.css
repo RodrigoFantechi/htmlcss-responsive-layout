@@ -23,7 +23,6 @@ img {
 
 body {
     font-family: 'PT Sans', sans-serif;
-    line-height: 2rem;
 }
 
 
@@ -66,7 +65,7 @@ a {
 
 .btn {
     display: inline-block;
-    padding: 0.4rem 2rem;
+    padding: 0.75rem 2rem;
     color: var(--clr-darker);
     border-radius: 1.5rem;
     background-color: var(--clr-light);
@@ -83,7 +82,23 @@ a {
 .letter_spacing{
     letter-spacing: 0.2rem;
 }
+p{
+    line-height: 2rem;
+}
 
+h2{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+h4{
+    font-size: 1.8rem; 
+    margin: 1rem 0;
+}
 /* #endregion Utilities */
 
 /* #region Header */
@@ -142,9 +157,7 @@ header .right_menu {
 
 .demo h4 {
     color: var(--clr-secondary);
-    margin: 1rem 0;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    
 }
 
 .demo p {
@@ -157,7 +170,7 @@ header .right_menu {
     background-color: var(--clr-secondary);
     color: var(--clr-light);
     letter-spacing: 0.2rem;
-    padding: 0.5rem 3rem;
+    padding: 0.75rem 3rem;
 }
 
 .f_end {
@@ -180,21 +193,10 @@ header .right_menu {
     color: var(--clr-light);
 }
 
-.planning_title h2 {
-    font-size: 2rem;
-    margin: 2rem 0;
-}
-
-.planning h4 {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-    line-height: 1.5rem;
-}
-
 .cicle_purple {
     background-color: var(--primary);
     border-radius: 100px;
-    padding: 1rem 1.7rem;
+    padding: 1.3rem 1.7rem;
     display: inline-block;
     margin: 1rem 0;
 }
@@ -216,10 +218,7 @@ header .right_menu {
 }
 
 .headering h3 {
-    font-size: 1.8rem;
     color: var(--primary);
-    margin: 1rem 0;
-    line-height: 1.8rem;
 }
 
 .partners .avatar {
@@ -247,11 +246,8 @@ header .right_menu {
 }
 
 .title_benefits h3 {
-    font-size: 1.8rem;
-    margin: 2rem 0;
     text-align: center;
     color: var(--clr-light);
-    line-height: 1.8rem;
 }
 
 .benefits_card {
@@ -263,9 +259,6 @@ header .right_menu {
 
 .benefits h4 {
     color: var(--primary);
-    margin: 1rem 0;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
 }
 
 .number {
@@ -281,17 +274,14 @@ header .right_menu {
     background-color: var(--primary);
     color: var(--clr-light);
     letter-spacing: 0.2rem;
-    padding: 0.2rem 2.5rem;
+    padding: 0.75rem 2.5rem;
     margin: 1rem 0;
 }
 
 /* ABOUT_US */
 
 .about_us h2 {
-    font-size: 2rem;
-    margin: 2rem 0;
-    color: var(--primary);
-    line-height: 2rem;
+    color: var(--primary); 
 }
 
 .about_us img {
@@ -319,14 +309,11 @@ header .right_menu {
 
 .about_us h4 {
     color: var(--primary);
-    margin: 1rem 0;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
     
 }
 
 .about_us .btn_purple {
-    padding: 0.2rem 1rem;
+    padding: 0.75rem 1rem;
 }
 
 /* FREE */
@@ -357,7 +344,7 @@ header .right_menu {
 .btn_free {
     color: var(--primary);
     letter-spacing: 0.2rem;
-    padding: 0.4rem 2.5rem;
+    padding: 0.75rem 2.5rem;
 }
 
 
@@ -496,6 +483,14 @@ footer {
     section {
         padding: 4rem 0;
     }
+    h2 {
+        font-size: 4rem;
+        margin: 2rem 0;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    
 
     /* DEMO */
     .demo .card {
@@ -528,11 +523,7 @@ footer {
         text-align: center;
     }
 
-    .planning_title h2 {
-        font-size: 4rem;
-        margin: 2rem 0;
-        line-height: 4rem;
-    }
+    
 
 
     /* PARTNERS */
@@ -546,33 +537,18 @@ footer {
         padding: 2rem;
     }
 
-    .partners h3 {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-    }
-
     .partners .avatar {
         width: 100%;
         max-width: 220px;
     }
-
-    /* BENEFITS */
-    .benefits h3 {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-    }
+ 
 
     /* ABOUT_US*/
-    .about_us h2 {
-        font-size: 4rem;
-        line-height: 4rem;
-    }
 
     /* FREE */
     .free h3 {
         font-size: 3rem;
         margin: 2rem 0;
-        line-height: 3rem;
     }
 
     .free .container {
@@ -674,6 +650,10 @@ footer {
     section {
         padding: 4rem 0;
     }
+    h2 {
+        font-size: 2.5rem;
+        margin: 2rem 0;
+    }
 
 
     /* DEMO */
@@ -715,11 +695,6 @@ footer {
         position: relative;
     }
 
-    .planning_title h2 {
-        font-size: 2.5rem;
-        margin: 2rem 0;
-        line-height: 2.5rem;
-    }
 
     /* ABOUT_US */
 
