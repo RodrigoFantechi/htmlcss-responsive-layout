@@ -99,7 +99,7 @@ header .links {
 
 header li {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0 1rem;
     color: var(--clr-light);
 }
@@ -178,7 +178,6 @@ header .right_menu {
 .planning_title h2 {
     font-size: 2rem;
     margin: 2rem 0;
-    line-height: 4rem;
 }
 
 .planning h4 {
@@ -240,8 +239,8 @@ header .right_menu {
     background-color: var(--primary);
 }
 
-.title_benefits h2 {
-    font-size: 2rem;
+.title_benefits h3 {
+    font-size: 1.8rem;
     margin: 2rem 0;
     text-align: center;
     color: var(--clr-light);
@@ -502,7 +501,7 @@ footer {
 
     #image {
         text-align: start;
-        
+
     }
 
     .demo p {
@@ -532,13 +531,21 @@ footer {
         text-align: left;
         padding: 2rem;
     }
-    .partners h3{
+
+    .partners h3 {
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
-    .partners .avatar{
+
+    .partners .avatar {
         width: 100%;
         max-width: 220px;
+    }
+
+    /* BENEFITS */
+    .benefits h3 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
     }
 
     /* ABOUT_US*/
@@ -546,13 +553,12 @@ footer {
         font-size: 4rem;
         line-height: 4rem;
     }
-    }
 
     /* FREE */
-    .free h2 {
-        font-size: 4rem;
+    .free h3 {
+        font-size: 3rem;
         margin: 2rem 0;
-        line-height: 4rem;
+        line-height: 3rem;
     }
 
     .free .container {
@@ -583,116 +589,152 @@ footer {
         margin-bottom: 3rem;
     }
 
-    @media screen and (min-width: 1200px) {
-        .col-lg-1 {
-            width: calc((100% / 12) * 1);
-        }
-
-        .col-lg-2 {
-            width: calc((100% / 12) * 2);
-        }
-
-        .col-lg-3 {
-            width: calc((100% / 12) * 3);
-        }
-
-        .col-lg-4 {
-            width: calc((100% / 12) * 4);
-        }
-
-        .col-lg-5 {
-            width: calc((100% / 12) * 5);
-        }
-
-        .col-lg-6 {
-            width: 50%;
-        }
-
-        .col-lg-7 {
-            width: calc((100% / 12) * 7);
-        }
-
-        .col-lg-8 {
-            width: calc((100% / 12) * 8);
-        }
-
-        .col-lg-9 {
-            width: calc((100% / 12) * 9);
-        }
-
-        .col-lg-10 {
-            width: calc((100% / 12) * 10);
-        }
-
-        .col-lg-11 {
-            width: calc((100% / 12) * 11);
-        }
-
-        .col-lg-12 {
-            width: 100%;
-        }
-
-        /* UTILITIES */
-
-        .container {
-            width: 75%;
-            margin: auto;
-        }
-
-        header .links {
-            display: block;
-        }
-
-        #icon {
-            display: none;
-        }
-
-        section {
-            padding: 4rem 0;
-        }
-
-
-        /* DEMO */
-
-        .demo img {
-            width: 85%;
-        }
-
-        #image {
-            text-align: center;
-        }
-
-        .demo p {
-            margin: 1rem 0;
-            padding-bottom: 1rem;
-        }
-
-        .apple {
-            margin: 0;
-        }
+}
 
 
 
-
-
+@media screen and (min-width: 1200px) {
+    .col-lg-1 {
+        width: calc((100% / 12) * 1);
     }
 
-    /* #endregion responsive */
-
-    /* #region Debug */
-
-    .debug .partners,
-    .debug .free {
-        height: 300px;
+    .col-lg-2 {
+        width: calc((100% / 12) * 2);
     }
 
-    .debug footer {
-        height: 200px;
+    .col-lg-3 {
+        width: calc((100% / 12) * 3);
     }
 
-    .debug [class^="col-"] {
-        border: 2px solid red;
-        height: 200px;
+    .col-lg-4 {
+        width: calc((100% / 12) * 4);
     }
 
-    /* #endregion Debug */
+    .col-lg-5 {
+        width: calc((100% / 12) * 5);
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: calc((100% / 12) * 7);
+    }
+
+    .col-lg-8 {
+        width: calc((100% / 12) * 8);
+    }
+
+    .col-lg-9 {
+        width: calc((100% / 12) * 9);
+    }
+
+    .col-lg-10 {
+        width: calc((100% / 12) * 10);
+    }
+
+    .col-lg-11 {
+        width: calc((100% / 12) * 11);
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    /* UTILITIES */
+
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+
+    header .links {
+        display: block;
+    }
+
+    #icon {
+        display: none;
+    }
+
+    section {
+        padding: 4rem 0;
+    }
+
+
+    /* DEMO */
+
+    .demo img {
+        width: 85%;
+        max-width: 250px;
+    }
+
+
+    #image {
+        text-align: center;
+    }
+
+    .demo p {
+        margin: 1rem 0;
+        padding-bottom: 1rem;
+    }
+
+    .apple {
+        margin: 0;
+    }
+
+
+    /* PLANNING */
+    .planning_card {
+        width: 70%;
+        padding: 2rem;
+        position: absolute;
+        left: 2rem;
+        bottom: 0;
+    }
+
+    .planning_card>img {
+        width: 60%;
+    }
+
+    .p_relative {
+        position: relative;
+    }
+
+    .planning_title h2 {
+        font-size: 2.5rem;
+        margin: 2rem 0;
+        line-height: 2.5rem;
+    }
+
+    /* ABOUT_US */
+
+    .about_us .avatar {
+        min-width: 200px;
+    }
+    .free .container, footer .container {
+        width: 50%;
+    }
+
+
+}
+
+/* #endregion responsive */
+
+/* #region Debug */
+
+.debug .partners,
+.debug .free {
+    height: 300px;
+}
+
+.debug footer {
+    height: 200px;
+}
+
+.debug [class^="col-"] {
+    border: 2px solid red;
+    height: 200px;
+}
+
+/* #endregion Debug */
