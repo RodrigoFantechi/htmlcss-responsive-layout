@@ -66,10 +66,11 @@ a {
 
 .btn {
     display: inline-block;
-    padding: 0.5rem 1.5rem;
+    padding: 0.4rem 2rem;
     color: var(--clr-darker);
     border-radius: 1.5rem;
     background-color: var(--clr-light);
+    font-weight: bold;
 }
 
 .tx_center {
@@ -78,6 +79,9 @@ a {
 
 .no_p {
     padding-bottom: 0;
+}
+.letter_spacing{
+    letter-spacing: 0.2rem;
 }
 
 /* #endregion Utilities */
@@ -140,6 +144,7 @@ header .right_menu {
     color: var(--clr-secondary);
     margin: 1rem 0;
     font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .demo p {
@@ -183,6 +188,7 @@ header .right_menu {
 .planning h4 {
     font-size: 1.5rem;
     margin: 1rem 0;
+    line-height: 1.5rem;
 }
 
 .cicle_purple {
@@ -213,6 +219,7 @@ header .right_menu {
     font-size: 1.8rem;
     color: var(--primary);
     margin: 1rem 0;
+    line-height: 1.8rem;
 }
 
 .partners .avatar {
@@ -244,6 +251,7 @@ header .right_menu {
     margin: 2rem 0;
     text-align: center;
     color: var(--clr-light);
+    line-height: 1.8rem;
 }
 
 .benefits_card {
@@ -257,6 +265,7 @@ header .right_menu {
     color: var(--primary);
     margin: 1rem 0;
     font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .number {
@@ -265,6 +274,7 @@ header .right_menu {
     color: var(--primary);
     margin: 1.5rem 0;
     font-weight: bold;
+    
 }
 
 .btn_purple {
@@ -281,6 +291,7 @@ header .right_menu {
     font-size: 2rem;
     margin: 2rem 0;
     color: var(--primary);
+    line-height: 2rem;
 }
 
 .about_us img {
@@ -311,6 +322,7 @@ header .right_menu {
     margin: 1rem 0;
     font-size: 1.5rem;
     line-height: 2.5rem;
+    
 }
 
 .about_us .btn_purple {
@@ -330,6 +342,7 @@ header .right_menu {
     color: var(--clr-accent);
     font-weight: bold;
     margin: 2.5rem 0;
+    line-height: 4rem;
 }
 
 .free .btn {
@@ -424,6 +437,7 @@ footer {
 /* #endregion Flexbox Grid */
 
 /* #region responsive */
+
 @media screen and (min-width: 480px) {
     .col-md-1 {
         width: calc((100% / 12) * 1);
