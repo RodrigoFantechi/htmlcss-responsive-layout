@@ -112,7 +112,7 @@ header {
 header .container {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 header .links {
@@ -257,6 +257,7 @@ header .right_menu {
     background-color: var(--clr-light);
     border-radius: 1rem;
     padding: 2rem 2rem;
+    height: 100%;
 
 }
 
@@ -429,7 +430,7 @@ footer {
 
 /* #region responsive */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
     .col-md-1 {
         width: calc((100% / 12) * 1);
     }
@@ -674,7 +675,6 @@ footer {
 
     .demo p {
         margin: 1rem 0;
-        padding-bottom: 1rem;
     }
 
     .apple {
